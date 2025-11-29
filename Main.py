@@ -8,7 +8,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # ========= CONFIG =========
 TOKEN = os.getenv("BOT_TOKEN")  # from Replit Secret
-
+ 
 if not TOKEN:
     raise ValueError("BOT_TOKEN is not set")
 
